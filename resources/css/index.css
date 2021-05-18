@@ -1,0 +1,193 @@
+/* header and nav section */
+/* */
+header {
+    flex: auto;
+    color: white;
+    background-color: darkslategray;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 145px;
+}
+
+@keyframes nameAnimation  {
+    from {color: transparent;}
+    to { color: white;}
+}
+
+#name  {
+    font-size: 2rem;
+    float: left;
+    padding: 10px 10px;
+    animation-name: nameAnimation;
+    animation-duration: 4s;
+
+}
+
+@keyframes picAnimation {
+    from {opacity: 0.0;}
+    to {opacity: 1; }
+}
+
+#profilePic {
+    max-width: 95px;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 10px;
+    animation-name: picAnimation;
+    animation-duration: 4s;
+
+  }
+ 
+@keyframes navAnimation {
+    from {opacity: 0.0;}
+    to {opacity: 1; } }
+
+nav {
+    text-align: end;
+    float: right;
+    margin: 0px 10px;
+    animation-name: navAnimation;
+    animation-duration: 4s;  
+}
+
+nav a {
+    color: white;
+    font-size: 1.5rem;
+}
+    /* general settings */
+
+
+
+h1 {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+body {
+    background-color: dimgrey;
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    
+}
+
+
+div {
+    color: white;
+    background-color: darkslategray;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+/* aboutME div */
+
+#aboutMe {
+    display: block;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+#aboutMe {
+    margin-top: 200px;
+    padding-top: 20px;
+}
+
+
+#aboutMe p {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+
+
+/* skills div */
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#github {
+    justify-content: center;
+    text-align: center;
+}
+
+#github ul {
+    text-align: left;
+}
+
+#html {
+    justify-content: center;
+    text-align: center;
+}
+
+#html ul {
+    text-align: left;
+}
+
+#css {
+    justify-content: center;
+    text-align: center;
+}
+
+#css ul {
+    text-align: left;
+}
+
+#js {
+    justify-content: center;
+    text-align: center;
+}
+
+#js ul {
+    text-align: left;
+}
+
+
+
+/* projects div */
+
+#projects {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+a {
+    color:white;
+
+}
+
+a:hover {
+    color:blue;
+}
+
+a:visited {
+    color:crimson;
+}
+
+
+/* footer */
+
+footer {
+    color: white;
+    background-color: darkslategray;
+    text-align: center;
+    padding-bottom: 10px;
+    display: block;
+    justify-content: center;
+}
