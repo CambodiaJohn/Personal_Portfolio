@@ -1,5 +1,6 @@
 /* header and nav section */
 /* */
+
 header {
     flex: auto;
     color: white;
@@ -36,12 +37,12 @@ header {
     padding-top: 10px;
     animation-name: picAnimation;
     animation-duration: 4s;
-
   }
  
 @keyframes navAnimation {
     from {opacity: 0.0;}
-    to {opacity: 1; } }
+    to {opacity: 1; } 
+}
 
 nav {
     text-align: end;
@@ -55,6 +56,7 @@ nav a {
     color: white;
     font-size: 1.5rem;
 }
+
     /* general settings */
 
 
@@ -75,12 +77,11 @@ h4 {
 
 
 body {
-    background-color: dimgrey;
+    background-color: grey;
     width: 100%;
     height: auto;
     padding: 0px 0px;
-    margin: 0px 0px;
-    
+    margin: 0px 0px; 
 }
 
 
